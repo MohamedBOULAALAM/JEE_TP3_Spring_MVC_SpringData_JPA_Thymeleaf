@@ -64,6 +64,34 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.32</version>
+        </dependency>
+        <dependency>
+            <groupId>com.mysql</groupId>
+            <artifactId>mysql-connector-j</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.webjars/bootstrap -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>bootstrap</artifactId>
+            <version>5.3.3</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.webjars/jquery -->
+        <dependency>
+            <groupId>org.webjars</groupId>
+            <artifactId>jquery</artifactId>
+            <version>3.6.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.webjars.npm/bootstrap-icons -->
+        <dependency>
+            <groupId>org.webjars.npm</groupId>
+            <artifactId>bootstrap-icons</artifactId>
+            <version>1.11.3</version>
+        </dependency>
     </dependencies>
 
     <build>
@@ -94,5 +122,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>
